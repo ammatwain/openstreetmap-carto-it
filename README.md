@@ -24,16 +24,16 @@ See [INSTALL.md](INSTALL.md).
 
 # Database Import (with osm2pgsql)
 
-<code>
-osm2pgsql -d gis \<br/>
-  --create --slim -G \<br/>
-  --hstore-all \<br/>
+<code><pre>
+osm2pgsql -d gis \
+  --create --slim -G \
+  --hstore-all \
   --tag-transform-script /your/path/openstreetmap-carto-italian/openstreetmap-carto.lua \<br/>
   -C 2500 \
-  --number-processes 1 \<br/>
-  -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \<br/>
-  /your/path/lebanon-latest.osm.pbf<br/>
-</code>
+  --number-processes 1 \
+  -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \
+  /your/path/lebanon-latest.osm.pbf
+</pre></code>
 
 # Contributing
 
