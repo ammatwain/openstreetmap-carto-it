@@ -32,7 +32,7 @@ osm2pgsql -d gis \\
   --number-processes 1 \\
   -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \\
   /your/path/lebanon-latest.osm.pbf
-</code>
+</pre>
 
 # Roadmap
 
