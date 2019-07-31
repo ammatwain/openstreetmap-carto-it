@@ -80,10 +80,4 @@ maps using Mapnik, many based on this project. Some alternatives are:
 
 (for original version)
 
-* Andy Allan [@gravitystorm](https://github.com/gravitystorm/)
-* Matthijs Melissen [@matthijsmelissen](https://github.com/matthijsmelissen/)
-* Paul Norman [@pnorman](https://github.com/pnorman/)
-* Mateusz Konieczny [@matkoniecz](https://github.com/matkoniecz/)
-* Daniel Koć [@kocio-pl](https://github.com/kocio-pl)
-* Christoph Hormann [@imagico](https://github.com/imagico)
-* Lukas Sommer [@sommerluk](https://github.com/sommerluk)
+( see  [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto) )
