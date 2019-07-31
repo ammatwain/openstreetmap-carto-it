@@ -56,45 +56,18 @@ cartographic project you can expect the following:
 
 # Roadmap
 
-## Initial Release (v1.0.0, December 2012)
+## First Commit ( 2019-07-31)
 
-This was a full re-implementation of the original OSM style, with only a few bugs discovered later. There's been
-no interest in creating further point releases in the v1.x series.
+This was a full re-implementation of the original OpenStreetMap Carto style,
 
-## Mapnik 2 work (v2.x)
-
-The v2.x series initially focused on refactoring the style, both to to fix
-glitches and to leverage new features in CartoCSS / Mapnik to simplify the
-stylesheets with only small changes to the output, as well as removing 'old-skool'
-tagging methods that are now rarely used. It then started adding new features.
-
-## Mapnik and CartoCSS update (v3.x)
-
-The v3.x series was triggered by an update to the required Mapnik and CartoCSS
-versions.
-
-Care has been taken to not get too clever with variables and expressions. While
-these often make it easier to customise, experience has shown that over-cleverness
-(e.g. [interpolated entities][cleverness]) can discourage contributions.
-
-[issues]: https://github.com/gravitystorm/openstreetmap-carto/issues
-[cleverness]: https://github.com/openstreetmap/mapnik-stylesheets/blob/master/inc/settings.xml.inc.template#L16
-
-## Database schema change (v4.x)
-
-The v4.x series includes [osm2pgsql lua transforms](https://github.com/openstreetmap/osm2pgsql/blob/master/docs/lua.md)
-and a hstore column with all other tags, allowing use of more OpenStreetMap data. Users need
-to reload their databases, v3.x compatibility is not maintained.
-
-There are over [300 open requests][issues], some that have been open for years.
-These need reviewing and dividing into obvious fixes, or additional new features
-that need some cartographic judgement.
+( see  [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto) )
 
 # Alternatives
 
 There are many open-source stylesheets written for creating OpenStreetMap-based
 maps using Mapnik, many based on this project. Some alternatives are:
 
+* [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto)
 * [OSM-Bright](https://github.com/mapbox/osm-bright)
 * [XML-based stylesheets](https://trac.openstreetmap.org/browser/subversion/applications/rendering/mapnik)
 * [osmfr-cartocss](https://github.com/cquest/osmfr-cartocss)
@@ -103,7 +76,7 @@ maps using Mapnik, many based on this project. Some alternatives are:
 # Maintainers
 (for this version)
 
-* Amedeo Sorpreso [@ammatwain] (https://github.com/ammatwain/)
+* Amedeo Sorpreso [@ammatwain](https://github.com/ammatwain/)
 
 (for original version)
 
