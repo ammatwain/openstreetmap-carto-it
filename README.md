@@ -1,6 +1,6 @@
 # OpenStreetMap Carto Italian
 
-![screenshot](https://raw.github.com/ammatwain/openstreetmap-carto-it/master/preview.png)
+![screenshot](https://raw.github.com/ammatwain/openstreetmap-carto-italian/master/preview.png)
 
 These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org).
 
@@ -22,9 +22,18 @@ are updated from each point release. They supersede the previous [XML-based styl
 You need a PostGIS database populated with OpenStreetMap data along with auxillary shapefiles.
 See [INSTALL.md](INSTALL.md).
 
-# Database Import
+# Database Import (with osm2pgsql)
 
-osm2pgsql -d gis --create --slim -G --hstore-all --tag-transform-script /your/path/openstreetmap-carto-it/openstreetmap-carto.lua -C 2500 --number-processes 1 -S /your/path/openstreetmap-carto-it/openstreetmap-carto.style ~/gis/data/lebanon-latest.osm.pbf
+<code>
+osm2pgsql -d gis \
+  --create --slim -G \
+  --hstore-all \
+  --tag-transform-script /your/path/openstreetmap-carto-italian/openstreetmap-carto.lua \
+  -C 2500 \
+  --number-processes 1 \
+  -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \
+  /your/path/lebanon-latest.osm.pbf
+</code>
 
 # Contributing
 
