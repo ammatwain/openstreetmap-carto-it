@@ -1,4 +1,4 @@
-# OpenStreetMap Carto It
+# OpenStreetMap Carto it
 
 ![screenshot](https://raw.github.com/ammatwain/openstreetmap-carto-it/master/preview.png)
 
