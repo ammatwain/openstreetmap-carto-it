@@ -2,7 +2,7 @@
 
 ![screenshot](https://raw.github.com/ammatwain/openstreetmap-carto-italian/master/preview.png)
 
-These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org).
+These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org/#map=9/33.9229/35.8772).
 
 This version has been modified to represent geographic names giving priority to the following languages:
 1) Italian
