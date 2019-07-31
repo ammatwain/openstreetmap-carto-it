@@ -1,4 +1,4 @@
-# OpenStreetMap Carto it
+# OpenStreetMap Carto Italian
 
 ![screenshot](https://raw.github.com/ammatwain/openstreetmap-carto-it/master/preview.png)
 
