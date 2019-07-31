@@ -1,8 +1,10 @@
-# OpenStreetMap Carto
+# OpenStreetMap Carto It
 
 ![screenshot](https://raw.github.com/gravitystorm/openstreetmap-carto/master/preview.png)
 
 These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org).
+
+This version has been modified to give priority to the Italian version of the place names.
 
 These stylesheets can be used in your own cartography projects, and are designed
 to be easily customised. They work with [Kosmtik](https://github.com/kosmtik/kosmtik)
@@ -15,6 +17,10 @@ are updated from each point release. They supersede the previous [XML-based styl
 
 You need a PostGIS database populated with OpenStreetMap data along with auxillary shapefiles.
 See [INSTALL.md](INSTALL.md).
+
+# Database Import
+
+osm2pgsql -d gis --create --slim -G --hstore-all --tag-transform-script /your/path/openstreetmap-carto-it/openstreetmap-carto.lua -C 2500 --number-processes 1 -S /your/path/openstreetmap-carto-it/openstreetmap-carto.style ~/gis/data/lebanon-latest.osm.pbf
 
 # Contributing
 
@@ -84,6 +90,11 @@ maps using Mapnik, many based on this project. Some alternatives are:
 * [openstreetmap-carto-german](https://github.com/giggls/openstreetmap-carto-de)
 
 # Maintainers
+(for this version)
+
+* Amedeo Sorpreso [@ammatwain] (https://github.com/ammatwain/)
+
+(for original version)
 
 * Andy Allan [@gravitystorm](https://github.com/gravitystorm/)
 * Matthijs Melissen [@matthijsmelissen](https://github.com/matthijsmelissen/)
