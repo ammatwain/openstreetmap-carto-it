@@ -4,7 +4,11 @@
 
 These are the CartoCSS map stylesheets for the Standard map layer on [OpenStreetMap.org](https://www.openstreetmap.org).
 
-This version has been modified to give priority to the Italian version of the place names.
+This version has been modified to represent geographic names giving priority to the following languages:
+1) Italian
+2) English
+3) French
+3) Local language (relative to the map)
 
 These stylesheets can be used in your own cartography projects, and are designed
 to be easily customised. They work with [Kosmtik](https://github.com/kosmtik/kosmtik)
