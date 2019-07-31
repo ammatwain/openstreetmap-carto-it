@@ -23,7 +23,7 @@ You need a PostGIS database populated with OpenStreetMap data along with auxilla
 See [INSTALL.md](INSTALL.md).
 
 # Database Import (with osm2pgsql)
-<code><pre>
+<pre>
 osm2pgsql -d gis \\
   --create --slim -G \\
   --hstore-all \\
@@ -32,7 +32,7 @@ osm2pgsql -d gis \\
   --number-processes 1 \\
   -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \\
   /your/path/lebanon-latest.osm.pbf
-</pre></code>
+</code>
 
 # Roadmap
 
