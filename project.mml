@@ -1,6 +1,6 @@
 scale: 1
 metatile: 2
-name: OpenStreetMap Carto
+name: OpenStreetMap Carto Italian
 description: A general-purpose OpenStreetMap mapnik style, in CartoCSS
 bounds: &world
   - -180
@@ -1981,7 +1981,6 @@ Layer:
     Datasource:
       <<: *osm2pgsql
       # Include values that are rendered as icon without label to prevent mismatch between icons and labels,
-      # see https://github.com/gravitystorm/openstreetmap-carto/pull/1349#issuecomment-77805678
       table: *amenity_points_sql
     properties:
       minzoom: 10

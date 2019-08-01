@@ -20,10 +20,10 @@ See [INSTALL.md](INSTALL.md).
 osm2pgsql -d gis \
   --create --slim -G \
   --hstore-all \
-  --tag-transform-script /your/path/openstreetmap-carto-italian/openstreetmap-carto.lua \
+  --tag-transform-script /your/path/openstreetmap-carto-italian/openstreetmap-carto-italian.lua \
   -C 2500 \
   --number-processes 1 \
-  -S /your/path/openstreetmap-carto-italian/openstreetmap-carto.style \
+  -S /your/path/openstreetmap-carto-italian/openstreetmap-carto-italian.style \
   /your/path/lebanon-latest.osm.pbf
 </pre>
 

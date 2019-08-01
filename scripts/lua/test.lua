@@ -4,7 +4,7 @@ This file is part of OpenStreetMap Carto and used for validating the Lua tag tra
 Run it with lua test.lua
 ]]
 
-require ("openstreetmap-carto")
+require ("openstreetmap-carto-italian")
 
 --- compare two tables.
 -- @param t1 A table

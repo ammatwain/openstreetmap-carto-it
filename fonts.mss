@@ -25,7 +25,6 @@ but there are some exceptions.
     better to default to either Chinese or Japanese. As Chinese exists in the
     two variants SC/TC, it won’t be a uniform rendering anyway. So we default
     to Japanese. However, this choice stays somewhat arbitrary and subjective.
-    See also https://github.com/gravitystorm/openstreetmap-carto/issues/2208)
   - For the Syriac script, there exist Noto Sans Syriac Eastern,
     Noto Sans Syriac Western Regular and Noto Sans Syriac Estrangela Regular.
     As for CJK fonts, we have no knowledge about what language the “names” tag
